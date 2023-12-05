@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 10vh;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  /* border-width: 0.2cqh; */
+  background-color: #d0e7d2;
+}
+
+.navbar-toggler {
+  border-color: transparent;
+}
+
+.menu-header {
+  background-color: #d0e7d2;
+}
+.menu-header-title {
+  position: relative;
+  left: 140px;
+}
+
+.logo {
+  height: 5vh;
+}
+
+.logo-container {
+  display: flex;
+  position: relative;
+  left: 20px;
+}
+.logo-container h1 {
+  font-size: 1rem;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: auto;
+  position: relative;
+  left: 10px;
+  display: block;
+  letter-spacing: 2px;
+}
+
+.search-box {
+  border-color: rgb(52, 52, 95);
+  position: relative;
+  border-radius: 20px;
+}
+
+.nav-links {
+  font-family: "Poppins";
+  font-weight: bolder;
+  color: #000000;
+  position: relative;
+  top: 5px;
+}
+
+.nav-links .links {
+  color: rgb(0, 0, 0);
+  font-size: small;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.nav-links .links:hover {
+  color: rgb(26, 145, 89);
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 667px) {
+  .logo-container h1 {
+    font-size: 13px;
+    margin: auto;
+    position: relative;
+    top: 3px;
+    left: 10px;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 768px) and (max-width: 1030px) {
+  .logo-container h1 {
+    display: none;
+  }
+  .logo {
+    position: relative;
+    right: 10px;
+  }
+}

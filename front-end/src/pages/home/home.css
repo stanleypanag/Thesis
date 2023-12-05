@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.content {
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 130px;
+}
+
+.content img {
+  height: 40vh;
+}
+
+.hero-container {
+  position: relative;
+  top: 40px;
+}
+
+.button {
+  border-style: solid;
+  border-color: rgb(26, 145, 89);
+  background: rgb(26, 145, 89);
+  color: aliceblue;
+  border-width: 1px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background: rgb(245, 243, 243);
+  color: rgb(0, 0, 0);
+  border-color: black;
+}
+
+.hero-container h1 {
+  font-family: "Pacifico";
+  position: relative;
+  bottom: 20px;
+}
+
+@media (max-width: 667px) {
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* // XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
