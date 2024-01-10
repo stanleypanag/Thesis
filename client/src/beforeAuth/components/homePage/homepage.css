@@ -1,0 +1,37 @@
+/* .about{
+    background: #C33764;
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764); 
+    background: linear-gradient(to right, #1D2671, #C33764); 
+    
+} */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.breakLine1{
+    display: flex;
+    width: 90%;
+    height: .4vh;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+.about-title{
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+}
+
+.about-title h1{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.dot{
+    height: 10px;
+    width: 20px;
+    background-color: rgb(9, 2, 2);
+    border-radius: 50px;
+    margin: auto;
+}
